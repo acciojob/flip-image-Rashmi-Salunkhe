@@ -1,8 +1,28 @@
-<html>
-  <head>
-    <title>Flip images</title>
-  </head>
-  <body>
-    <!-- Write your code here -->
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip Images on Hover</title>
+  <style>
+    /* Styling the image */
+    #flip {
+      width: 400px;
+      height: auto;
+      transition: 0.3s ease;
+    }
+
+    /* Change the image on hover */
+    #flip:hover {
+      content: url('https://live.staticflickr.com/8138/29099429912_0659caf55b_b.jpg');
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hover over the image to flip</h1>
+
+  <img id="flip" src="https://images.pexels.com/photos/6785279/pexels-photo-6785279.jpeg" alt="Initial Image">
+
+</body>
 </html>
